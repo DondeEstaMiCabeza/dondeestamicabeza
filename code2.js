@@ -757,6 +757,7 @@ gdjs.copyArray(runtimeScene.getObjects("Siguiente"), gdjs._50Code.GDSiguienteObj
 gdjs._50Code.mapOfGDgdjs_9546_959550Code_9546GDCuadroObjects2Objects = Hashtable.newFrom({"Cuadro": gdjs._50Code.GDCuadroObjects2});
 gdjs._50Code.mapOfGDgdjs_9546_959550Code_9546GDMousePointObjects2Objects = Hashtable.newFrom({"MousePoint": gdjs._50Code.GDMousePointObjects2});
 gdjs._50Code.mapOfGDgdjs_9546_959550Code_9546GDRespuestaProvinciaObjects2Objects = Hashtable.newFrom({"RespuestaProvincia": gdjs._50Code.GDRespuestaProvinciaObjects2});
+gdjs._50Code.mapOfGDgdjs_9546_959550Code_9546GDCuadroObjects2Objects = Hashtable.newFrom({"Cuadro": gdjs._50Code.GDCuadroObjects2});
 gdjs._50Code.eventsList9 = function(runtimeScene) {
 
 {
@@ -819,6 +820,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs._50Code.GDCuadroObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("FieldProvincia"), gdjs._50Code.GDFieldProvinciaObjects2);
 gdjs.copyArray(runtimeScene.getObjects("SelecProvincias"), gdjs._50Code.GDSelecProvinciasObjects2);
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "ProvinciasLayer");
 }{for(var i = 0, len = gdjs._50Code.GDSelecProvinciasObjects2.length ;i < len;++i) {
@@ -827,6 +829,9 @@ gdjs.copyArray(runtimeScene.getObjects("SelecProvincias"), gdjs._50Code.GDSelecP
 }{for(var i = 0, len = gdjs._50Code.GDCuadroObjects2.length ;i < len;++i) {
     gdjs._50Code.GDCuadroObjects2[i].hide();
 }
+}{for(var i = 0, len = gdjs._50Code.GDFieldProvinciaObjects2.length ;i < len;++i) {
+    gdjs._50Code.GDFieldProvinciaObjects2[i].setAnimationFrame(0);
+}
 }}
 
 }
@@ -834,10 +839,15 @@ gdjs.copyArray(runtimeScene.getObjects("SelecProvincias"), gdjs._50Code.GDSelecP
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("Cuadro"), gdjs._50Code.GDCuadroObjects2);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SwipeGesture__IsSwipeInProgress.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs._50Code.mapOfGDgdjs_9546_959550Code_9546GDCuadroObjects2Objects, runtimeScene, true, false);
+}
 if (isConditionTrue_0) {
 {gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.func(runtimeScene, 0, "ProvinciasLayer", "vertical", "Left", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
@@ -1144,6 +1154,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Cuadro"), gdjs._50Code.GDCuadroObjects1);
+gdjs.copyArray(runtimeScene.getObjects("FieldProvincia"), gdjs._50Code.GDFieldProvinciaObjects1);
 gdjs.copyArray(runtimeScene.getObjects("RespuestaProvincia"), gdjs._50Code.GDRespuestaProvinciaObjects1);
 /* Reuse gdjs._50Code.GDSelecProvinciasObjects1 */
 {runtimeScene.getScene().getVariables().getFromIndex(5).setNumber(1);
@@ -1156,6 +1167,12 @@ gdjs.copyArray(runtimeScene.getObjects("RespuestaProvincia"), gdjs._50Code.GDRes
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "ProvinciasLayer");
 }{for(var i = 0, len = gdjs._50Code.GDCuadroObjects1.length ;i < len;++i) {
     gdjs._50Code.GDCuadroObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs._50Code.GDSelecProvinciasObjects1.length ;i < len;++i) {
+    gdjs._50Code.GDSelecProvinciasObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs._50Code.GDFieldProvinciaObjects1.length ;i < len;++i) {
+    gdjs._50Code.GDFieldProvinciaObjects1[i].setAnimationFrame(0);
 }
 }}
 
@@ -1206,6 +1223,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Cuadro"), gdjs._50Code.GDCuadroObjects1);
+gdjs.copyArray(runtimeScene.getObjects("FieldProvincia"), gdjs._50Code.GDFieldProvinciaObjects1);
 gdjs.copyArray(runtimeScene.getObjects("SelecProvincias"), gdjs._50Code.GDSelecProvinciasObjects1);
 {gdjs.evtTools.camera.showLayer(runtimeScene, "ProvinciasLayer");
 }{for(var i = 0, len = gdjs._50Code.GDSelecProvinciasObjects1.length ;i < len;++i) {
@@ -1213,6 +1231,9 @@ gdjs.copyArray(runtimeScene.getObjects("SelecProvincias"), gdjs._50Code.GDSelecP
 }
 }{for(var i = 0, len = gdjs._50Code.GDCuadroObjects1.length ;i < len;++i) {
     gdjs._50Code.GDCuadroObjects1[i].hide(false);
+}
+}{for(var i = 0, len = gdjs._50Code.GDFieldProvinciaObjects1.length ;i < len;++i) {
+    gdjs._50Code.GDFieldProvinciaObjects1[i].setAnimationFrame(1);
 }
 }}
 
@@ -1323,38 +1344,6 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(runtimeScene.getObjects("Debug"), gdjs._50Code.GDDebugObjects1);
 {for(var i = 0, len = gdjs._50Code.GDDebugObjects1.length ;i < len;++i) {
     gdjs._50Code.GDDebugObjects1[i].getBehavior("Text").setText(gdjs.evtTools.common.toString(gdjs.evtTools.camera.getCameraY(runtimeScene, "ProvinciasLayer", 0)));
-}
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "a");
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("SelecProvincias"), gdjs._50Code.GDSelecProvinciasObjects1);
-{for(var i = 0, len = gdjs._50Code.GDSelecProvinciasObjects1.length ;i < len;++i) {
-    gdjs._50Code.GDSelecProvinciasObjects1[i].hide(false);
-}
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "d");
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("SelecProvincias"), gdjs._50Code.GDSelecProvinciasObjects1);
-{for(var i = 0, len = gdjs._50Code.GDSelecProvinciasObjects1.length ;i < len;++i) {
-    gdjs._50Code.GDSelecProvinciasObjects1[i].hide();
 }
 }}
 

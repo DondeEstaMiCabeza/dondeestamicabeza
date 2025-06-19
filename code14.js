@@ -206,7 +206,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("RespuestaEntry"), gdjs._490Code.GDRespuestaEntryObjects1);
 {runtimeScene.getGame().getVariables().get("User").getChild("PanaInfluencer").setString((( gdjs._490Code.GDRespuestaEntryObjects1.length === 0 ) ? "" :gdjs._490Code.GDRespuestaEntryObjects1[0].getText()));
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "6.1", false);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "11", false);
 }}
 
 }
