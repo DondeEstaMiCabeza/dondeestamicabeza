@@ -44,6 +44,12 @@ gdjs._53Code.GDSiguienteObjects3= [];
 gdjs._53Code.GDSiguienteObjects4= [];
 gdjs._53Code.GDSiguienteObjects5= [];
 gdjs._53Code.GDSiguienteObjects6= [];
+gdjs._53Code.GDSubtObjects1= [];
+gdjs._53Code.GDSubtObjects2= [];
+gdjs._53Code.GDSubtObjects3= [];
+gdjs._53Code.GDSubtObjects4= [];
+gdjs._53Code.GDSubtObjects5= [];
+gdjs._53Code.GDSubtObjects6= [];
 
 
 gdjs._53Code.asyncCallback16145740 = function (runtimeScene, asyncObjectsList) {
@@ -1065,6 +1071,12 @@ gdjs._53Code.GDSiguienteObjects3.length = 0;
 gdjs._53Code.GDSiguienteObjects4.length = 0;
 gdjs._53Code.GDSiguienteObjects5.length = 0;
 gdjs._53Code.GDSiguienteObjects6.length = 0;
+gdjs._53Code.GDSubtObjects1.length = 0;
+gdjs._53Code.GDSubtObjects2.length = 0;
+gdjs._53Code.GDSubtObjects3.length = 0;
+gdjs._53Code.GDSubtObjects4.length = 0;
+gdjs._53Code.GDSubtObjects5.length = 0;
+gdjs._53Code.GDSubtObjects6.length = 0;
 
 gdjs._53Code.eventsList15(runtimeScene);
 gdjs._53Code.GDOpcionesObjects1.length = 0;
@@ -1103,6 +1115,12 @@ gdjs._53Code.GDSiguienteObjects3.length = 0;
 gdjs._53Code.GDSiguienteObjects4.length = 0;
 gdjs._53Code.GDSiguienteObjects5.length = 0;
 gdjs._53Code.GDSiguienteObjects6.length = 0;
+gdjs._53Code.GDSubtObjects1.length = 0;
+gdjs._53Code.GDSubtObjects2.length = 0;
+gdjs._53Code.GDSubtObjects3.length = 0;
+gdjs._53Code.GDSubtObjects4.length = 0;
+gdjs._53Code.GDSubtObjects5.length = 0;
+gdjs._53Code.GDSubtObjects6.length = 0;
 
 
 return;

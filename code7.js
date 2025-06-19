@@ -1361,7 +1361,7 @@ gdjs._54_462Code.GDOpcionesObjects2.length = k;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("SliderEdad"), gdjs._54_462Code.GDSliderEdadObjects2);
 {for(var i = 0, len = gdjs._54_462Code.GDSliderEdadObjects2.length ;i < len;++i) {
-    gdjs._54_462Code.GDSliderEdadObjects2[i].getBehavior("DraggableSliderControl").SetValue(2, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+    gdjs._54_462Code.GDSliderEdadObjects2[i].getBehavior("DraggableSliderControl").SetValue(1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -1386,7 +1386,7 @@ gdjs._54_462Code.GDOpcionesObjects2.length = k;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("SliderEdad"), gdjs._54_462Code.GDSliderEdadObjects2);
 {for(var i = 0, len = gdjs._54_462Code.GDSliderEdadObjects2.length ;i < len;++i) {
-    gdjs._54_462Code.GDSliderEdadObjects2[i].getBehavior("DraggableSliderControl").SetValue(4, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+    gdjs._54_462Code.GDSliderEdadObjects2[i].getBehavior("DraggableSliderControl").SetValue(2, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -1411,7 +1411,7 @@ gdjs._54_462Code.GDOpcionesObjects2.length = k;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("SliderEdad"), gdjs._54_462Code.GDSliderEdadObjects2);
 {for(var i = 0, len = gdjs._54_462Code.GDSliderEdadObjects2.length ;i < len;++i) {
-    gdjs._54_462Code.GDSliderEdadObjects2[i].getBehavior("DraggableSliderControl").SetValue(6, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+    gdjs._54_462Code.GDSliderEdadObjects2[i].getBehavior("DraggableSliderControl").SetValue(3, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -1436,7 +1436,32 @@ gdjs._54_462Code.GDOpcionesObjects2.length = k;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("SliderEdad"), gdjs._54_462Code.GDSliderEdadObjects2);
 {for(var i = 0, len = gdjs._54_462Code.GDSliderEdadObjects2.length ;i < len;++i) {
-    gdjs._54_462Code.GDSliderEdadObjects2[i].getBehavior("DraggableSliderControl").SetValue(8, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+    gdjs._54_462Code.GDSliderEdadObjects2[i].getBehavior("DraggableSliderControl").SetValue(4, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(gdjs._54_462Code.GDOpcionesObjects1, gdjs._54_462Code.GDOpcionesObjects2);
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects2.length;i<l;++i) {
+    if ( gdjs._54_462Code.GDOpcionesObjects2[i].getAnimation() == 4 ) {
+        isConditionTrue_0 = true;
+        gdjs._54_462Code.GDOpcionesObjects2[k] = gdjs._54_462Code.GDOpcionesObjects2[i];
+        ++k;
+    }
+}
+gdjs._54_462Code.GDOpcionesObjects2.length = k;
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("SliderEdad"), gdjs._54_462Code.GDSliderEdadObjects2);
+{for(var i = 0, len = gdjs._54_462Code.GDSliderEdadObjects2.length ;i < len;++i) {
+    gdjs._54_462Code.GDSliderEdadObjects2[i].getBehavior("DraggableSliderControl").SetValue(5, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -1450,7 +1475,7 @@ gdjs.copyArray(runtimeScene.getObjects("SliderEdad"), gdjs._54_462Code.GDSliderE
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects1.length;i<l;++i) {
-    if ( gdjs._54_462Code.GDOpcionesObjects1[i].getAnimation() == 4 ) {
+    if ( gdjs._54_462Code.GDOpcionesObjects1[i].getAnimation() == 5 ) {
         isConditionTrue_0 = true;
         gdjs._54_462Code.GDOpcionesObjects1[k] = gdjs._54_462Code.GDOpcionesObjects1[i];
         ++k;
@@ -1460,7 +1485,7 @@ gdjs._54_462Code.GDOpcionesObjects1.length = k;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("SliderEdad"), gdjs._54_462Code.GDSliderEdadObjects1);
 {for(var i = 0, len = gdjs._54_462Code.GDSliderEdadObjects1.length ;i < len;++i) {
-    gdjs._54_462Code.GDSliderEdadObjects1[i].getBehavior("DraggableSliderControl").SetValue(10, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+    gdjs._54_462Code.GDSliderEdadObjects1[i].getBehavior("DraggableSliderControl").SetValue(6, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -1650,7 +1675,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs._54_462Code.mapOfGDgdjs_9546_959554_9595462Code_9546GDOpcionesObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16200308);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15114348);
 }
 }
 }

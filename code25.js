@@ -44,6 +44,12 @@ gdjs._501Code.GDSiguienteObjects3= [];
 gdjs._501Code.GDSiguienteObjects4= [];
 gdjs._501Code.GDSiguienteObjects5= [];
 gdjs._501Code.GDSiguienteObjects6= [];
+gdjs._501Code.GDSubtObjects1= [];
+gdjs._501Code.GDSubtObjects2= [];
+gdjs._501Code.GDSubtObjects3= [];
+gdjs._501Code.GDSubtObjects4= [];
+gdjs._501Code.GDSubtObjects5= [];
+gdjs._501Code.GDSubtObjects6= [];
 
 
 gdjs._501Code.asyncCallback26664276 = function (runtimeScene, asyncObjectsList) {
@@ -929,6 +935,12 @@ gdjs._501Code.GDSiguienteObjects3.length = 0;
 gdjs._501Code.GDSiguienteObjects4.length = 0;
 gdjs._501Code.GDSiguienteObjects5.length = 0;
 gdjs._501Code.GDSiguienteObjects6.length = 0;
+gdjs._501Code.GDSubtObjects1.length = 0;
+gdjs._501Code.GDSubtObjects2.length = 0;
+gdjs._501Code.GDSubtObjects3.length = 0;
+gdjs._501Code.GDSubtObjects4.length = 0;
+gdjs._501Code.GDSubtObjects5.length = 0;
+gdjs._501Code.GDSubtObjects6.length = 0;
 
 gdjs._501Code.eventsList13(runtimeScene);
 gdjs._501Code.GDOpcionesObjects1.length = 0;
@@ -967,6 +979,12 @@ gdjs._501Code.GDSiguienteObjects3.length = 0;
 gdjs._501Code.GDSiguienteObjects4.length = 0;
 gdjs._501Code.GDSiguienteObjects5.length = 0;
 gdjs._501Code.GDSiguienteObjects6.length = 0;
+gdjs._501Code.GDSubtObjects1.length = 0;
+gdjs._501Code.GDSubtObjects2.length = 0;
+gdjs._501Code.GDSubtObjects3.length = 0;
+gdjs._501Code.GDSubtObjects4.length = 0;
+gdjs._501Code.GDSubtObjects5.length = 0;
+gdjs._501Code.GDSubtObjects6.length = 0;
 
 
 return;
