@@ -755,7 +755,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().get("User").getChild("QueEsLoPeorDeTuTrabajoOEstudio").setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)) + " y " + gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)) + " y " + gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(2)));
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "NoRecoData", false);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "19", false);
 }}
 
 }
