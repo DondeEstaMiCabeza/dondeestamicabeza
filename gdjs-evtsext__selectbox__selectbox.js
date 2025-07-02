@@ -488,7 +488,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__SelectBox__SelectBox.SelectBox.prototyp
 gdjs.evtsExt__SelectBox__SelectBox.SelectBox.prototype.doStepPostEventsContext.GDObjectObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(21792908);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(19707156);
 }
 }
 if (isConditionTrue_0) {

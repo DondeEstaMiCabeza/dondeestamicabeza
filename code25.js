@@ -8,7 +8,7 @@ gdjs.RecoDataCode.GDWhereIsMyHeadObjects1= [];
 gdjs.RecoDataCode.GDWhereIsMyHeadObjects2= [];
 
 
-gdjs.RecoDataCode.asyncCallback23897212 = function (runtimeScene, asyncObjectsList) {
+gdjs.RecoDataCode.asyncCallback21722012 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.RecoDataCode.localVariables);
 {gdjs.evtTools.firebaseTools.firestore.addDocument("respuestas", runtimeScene.getScene().getVariables().get("User"), runtimeScene.getScene().getVariables().get("Estado"));
 }gdjs.RecoDataCode.localVariables.length = 0;
@@ -22,14 +22,14 @@ gdjs.RecoDataCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.RecoDataCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.RecoDataCode.asyncCallback23897212(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.RecoDataCode.asyncCallback21722012(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.RecoDataCode.asyncCallback23898948 = function (runtimeScene, asyncObjectsList) {
+};gdjs.RecoDataCode.asyncCallback21723748 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.RecoDataCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("BG"), gdjs.RecoDataCode.GDBGObjects2);
 gdjs.copyArray(asyncObjectsList.getObjects("ElementosEscalables"), gdjs.RecoDataCode.GDElementosEscalablesObjects2);
@@ -52,7 +52,7 @@ gdjs.RecoDataCode.eventsList1 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.RecoDataCode.localVariables);
 for (const obj of gdjs.RecoDataCode.GDElementosEscalablesObjects1) asyncObjectsList.addObject("ElementosEscalables", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.RecoDataCode.asyncCallback23898948(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.RecoDataCode.asyncCallback21723748(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -81,7 +81,7 @@ gdjs.RecoDataCode.eventsList1(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23898420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21723220);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("ElementosEscalables"), gdjs.RecoDataCode.GDElementosEscalablesObjects1);
@@ -106,7 +106,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23888740);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21713540);
 }
 }
 if (isConditionTrue_0) {
@@ -139,6 +139,8 @@ gdjs.copyArray(runtimeScene.getObjects("ElementosEscalables"), gdjs.RecoDataCode
 }{runtimeScene.getScene().getVariables().get("User").getChild("TeAdaptadasALosCambios").setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("User").getChild("TeAdaptadasALosCambios")));
 }{runtimeScene.getScene().getVariables().get("User").getChild("DespuesDeLaTormentaMeSiento").setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("User").getChild("DespuesDeLaTormentaMeSiento")));
 }{runtimeScene.getScene().getVariables().get("User").getChild("QueTeMantieneConVida").setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("User").getChild("QueTeMantieneConVida")));
+}{runtimeScene.getScene().getVariables().get("User").getChild("Fecha").setString(gdjs.evtTools.common.toString(gdjs.evtTools.runtimeScene.getTime(runtimeScene, "mday")) + "/" + gdjs.evtTools.common.toString(1 + gdjs.evtTools.runtimeScene.getTime(runtimeScene, "mon")) + "/" + gdjs.evtTools.common.toString(1900 + gdjs.evtTools.runtimeScene.getTime(runtimeScene, "year")));
+}{runtimeScene.getScene().getVariables().get("User").getChild("Hora").setString(gdjs.evtTools.common.toString(gdjs.evtTools.runtimeScene.getTime(runtimeScene, "hour")) + ":" + gdjs.evtTools.common.toString(gdjs.evtTools.runtimeScene.getTime(runtimeScene, "min")));
 }{for(var i = 0, len = gdjs.RecoDataCode.GDBGObjects1.length ;i < len;++i) {
     gdjs.RecoDataCode.GDBGObjects1[i].getBehavior("Tween").addObjectScaleTween("Thumb", 0.5, 0.5, "linear", 1, false, true);
 }

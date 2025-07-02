@@ -38,7 +38,7 @@ gdjs._54_462Code.GDFondoObjects3= [];
 gdjs._54_462Code.GDFondoObjects4= [];
 
 
-gdjs._54_462Code.asyncCallback22467844 = function (runtimeScene, asyncObjectsList) {
+gdjs._54_462Code.asyncCallback20292620 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs._54_462Code.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("IMG_Pregunta"), gdjs._54_462Code.GDIMG_9595PreguntaObjects2);
 
@@ -57,7 +57,7 @@ gdjs._54_462Code.eventsList0 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs._54_462Code.localVariables);
 for (const obj of gdjs._54_462Code.GDIMG_9595PreguntaObjects1) asyncObjectsList.addObject("IMG_Pregunta", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs._54_462Code.asyncCallback22467844(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs._54_462Code.asyncCallback20292620(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -83,7 +83,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects3.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22474636);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20299412);
 }
 }
 if (isConditionTrue_0) {
@@ -121,7 +121,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects2.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22476124);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20300900);
 }
 }
 if (isConditionTrue_0) {
@@ -158,7 +158,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects3.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22478028);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20302804);
 }
 }
 if (isConditionTrue_0) {
@@ -196,7 +196,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects2.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22479092);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20303868);
 }
 }
 if (isConditionTrue_0) {
@@ -233,7 +233,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects3.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22481716);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20306492);
 }
 }
 if (isConditionTrue_0) {
@@ -271,7 +271,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects2.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22482780);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20307556);
 }
 }
 if (isConditionTrue_0) {
@@ -308,7 +308,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects3.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22485372);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20310148);
 }
 }
 if (isConditionTrue_0) {
@@ -346,7 +346,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects2.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22487100);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20311876);
 }
 }
 if (isConditionTrue_0) {
@@ -383,7 +383,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects3.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22489100);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20313876);
 }
 }
 if (isConditionTrue_0) {
@@ -421,7 +421,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects2.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22490044);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20314820);
 }
 }
 if (isConditionTrue_0) {
@@ -458,7 +458,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects3.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22492660);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20317436);
 }
 }
 if (isConditionTrue_0) {
@@ -496,7 +496,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects2.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22493724);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20318500);
 }
 }
 if (isConditionTrue_0) {
@@ -533,7 +533,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDSiguienteObjects2.length;i<l;++i) 
 gdjs._54_462Code.GDSiguienteObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22472316);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20297092);
 }
 }
 if (isConditionTrue_0) {
@@ -689,7 +689,7 @@ gdjs._54_462Code.eventsList6(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22495492);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20320268);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Thumb"), gdjs._54_462Code.GDThumbObjects1);
@@ -719,7 +719,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects3.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22498572);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20323348);
 }
 }
 if (isConditionTrue_0) {
@@ -757,7 +757,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects2.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22499388);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20324164);
 }
 }
 if (isConditionTrue_0) {
@@ -794,7 +794,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects3.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22502500);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20327276);
 }
 }
 if (isConditionTrue_0) {
@@ -832,7 +832,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects2.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22502956);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20327732);
 }
 }
 if (isConditionTrue_0) {
@@ -869,7 +869,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects3.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22505836);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20330612);
 }
 }
 if (isConditionTrue_0) {
@@ -907,7 +907,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects2.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22506900);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20331676);
 }
 }
 if (isConditionTrue_0) {
@@ -944,7 +944,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects3.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22509476);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20334252);
 }
 }
 if (isConditionTrue_0) {
@@ -982,7 +982,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects2.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22510540);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20335316);
 }
 }
 if (isConditionTrue_0) {
@@ -1019,7 +1019,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects3.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22513388);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20338164);
 }
 }
 if (isConditionTrue_0) {
@@ -1057,7 +1057,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects2.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22513932);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20338708);
 }
 }
 if (isConditionTrue_0) {
@@ -1094,7 +1094,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects2.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22516788);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20341564);
 }
 }
 if (isConditionTrue_0) {
@@ -1132,7 +1132,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDOpcionesObjects1.length;i<l;++i) {
 gdjs._54_462Code.GDOpcionesObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22518516);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20343292);
 }
 }
 if (isConditionTrue_0) {
@@ -1169,7 +1169,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDSiguienteObjects2.length;i<l;++i) 
 gdjs._54_462Code.GDSiguienteObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22497068);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20321844);
 }
 }
 if (isConditionTrue_0) {
@@ -1559,7 +1559,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs._54_462Code.mapOfGDgdjs_9546_959554_9595462Code_9546GDOpcionesObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22471108);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20295884);
 }
 }
 }
@@ -1647,7 +1647,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDSliderEdadObjects1.length;i<l;++i)
 gdjs._54_462Code.GDSliderEdadObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22519804);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20344580);
 }
 }
 if (isConditionTrue_0) {
@@ -1675,7 +1675,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs._54_462Code.mapOfGDgdjs_9546_959554_9595462Code_9546GDOpcionesObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22522692);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20347468);
 }
 }
 }
@@ -1710,7 +1710,7 @@ for (var i = 0, k = 0, l = gdjs._54_462Code.GDSiguienteObjects1.length;i<l;++i) 
 gdjs._54_462Code.GDSiguienteObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22526924);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20351700);
 }
 }
 }
